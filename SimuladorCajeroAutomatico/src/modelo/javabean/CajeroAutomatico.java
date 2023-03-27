@@ -29,9 +29,36 @@ public class CajeroAutomatico {
 		opcion=entrada.nextInt();
 		
 		switch (opcion) {
-		case 1:
-		case 2: 
+		case 1: System.out.println("¿Cuanto dinero quiere sacar?");
+				ingreso=entrada.nextDouble();
+				saldoActual = saldoInicial+ingreso;
+				
+				System.out.println("El saldo actual de su cuenta es : " +saldoActual);
+				break;
+		
+		case 2: System.out.println("¿Cuanto dinero quiere retirar?");
+				retirar=entrada.nextDouble();
+				if (retirar > saldoInicial) {
+					System.out.println("No cuenta con el saldo suficiente");
+				}
+				else {
+					saldoActual = saldoInicial - retirar;
+					System.out.println("Dispone de: " +saldoActual);
+				}
+				
+				   retirar=entrada.nextFloat();
+		            saldoActual=entrada.nextFloat();
+			        retirar=saldoActual-retirar;
+			       
+			        System.out.println("El saldo actual de su cuenta es: " +retirar);
+			        break;
 		case 3:
+			System.out.println("Hasta luego. Recuerde que en ING estamos siempre disponibles para nuestros clientes");
+			break;
+		
+		default: 
+			System.out.println("Opción incorrecta");
+			break;
 		}
 		
 		

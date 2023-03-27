@@ -11,5 +11,5 @@ para elegir. Las opciones son la siguientes:
 
 ## Nota
 
-Esta cuenta se va a crear con una constante **final** que nos dice que 
+Esta cuenta bancaria se va a crear con una constante **final** que nos dice que 
 dentro de la cuenta tenemos 1.000€. 
