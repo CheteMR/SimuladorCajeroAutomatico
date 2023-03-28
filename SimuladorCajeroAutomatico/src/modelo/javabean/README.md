@@ -5,9 +5,11 @@
 Se simula un pequeño cajero automático con tres opciones 
 para elegir. Las opciones son la siguientes: 
 
-**Ingresar**
-**Retirar**
-**Salir**
+**1.Ingresar**
+
+**2.Retirar**
+
+**3.Salir**
 
 ## Nota
 
